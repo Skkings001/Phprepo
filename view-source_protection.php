@@ -204,7 +204,7 @@ function vsp_default($var,$dir,$redir_url)
     }
     elseif($dir == 'redirect' && $redir_url != false)
     {
-        header("location: ?$redir_url=");
+        header("location: ?$redir_url=https://combinetv-by-tataplaylinks.pages.dev/");
         die();
     }
 };
